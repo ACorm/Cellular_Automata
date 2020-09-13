@@ -56,7 +56,7 @@ class Conditions {
 void test() {
   InteractionStates Test=new InteractionStates(
     new Cell(Type.animal, new propLook (true, state.hungry)), 
-    new Cell(Type.animal, new propLook (true, state.dead), new propLook (false, state.hungry) ),
-    new Comparer(3, true, new Conditions(new Cell(Type.plant, new propLook (false, state.dead)), 1),new Conditions(new Cell(Type.plant,new propLook (true, state.dead)), 0.5))
+    new Cell(Type.animal, new propLook (true, state.dead), new propLook (false, state.hungry)), 
+    new Comparer(3, true, new Conditions(new Cell(Type.plant, new propLook (false, state.dead)), 1), new Conditions(new Cell(Type.plant, new propLook (true, state.dead)), 0.5))
     );
 }
