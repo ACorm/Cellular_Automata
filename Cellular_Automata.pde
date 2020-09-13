@@ -43,7 +43,7 @@ void draw() {
       day++;
       println(day);
       for (cell block : grid) {
-        check(block);
+        //check(block);
       }
       for (cell block : grid) {
         block.change();

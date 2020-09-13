@@ -30,17 +30,17 @@ public enum state {
 ///*functions that returns a state given an input of around*/  }, 
 //};
 
-public final CellSpreadType [] spreadType=new CellSpreadType []{
-  new CellSpreadType(Type.plant, false, 2, state.dead),
-  new CellSpreadType(Type.animal, false, 2, state.dead)
-};
+//public final CellSpreadType [] spreadType=new CellSpreadType []{
+//  new CellSpreadType(Type.plant, false, 2, state.dead),
+//  new CellSpreadType(Type.animal, false, 2, state.dead)
+//};
 
-public final CellSpreadProperties [] spreadProperties=new CellSpreadProperties []{
-  new CellSpreadProperties(false, 2, state.sick)
-};
+//public final CellSpreadProperties [] spreadProperties=new CellSpreadProperties []{
+//  new CellSpreadProperties(false, 2, state.sick)
+//};
 
 
-void check(cell This){
+//void check(cell This){
   
   
-}
+//}

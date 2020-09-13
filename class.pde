@@ -1,5 +1,5 @@
 class cell { //<>//
-  ArrayList <state> properties;
+  ArrayList <state> properties=new ArrayList();
   ArrayList <state> nextProperties;
   //state nextProperties;
   float age=0;
@@ -74,7 +74,7 @@ class cell { //<>//
       //fill(255,255,255);
       break;
     }
-    for (int i=0; i<=properties.size(); i++) {
+    for (int i=0; i<properties.size(); i++) {
       if (properties.get(i)==state.dead) {
         lerpColor(tint, color(300, 0, 0), 0.5);
       } else if (properties.get(i)==state.sick) {
